@@ -1,7 +1,16 @@
-# joomla-hydro-raindrop
-A Joomla plugin to integrate Hydro Raindrop MFA
+# Hydro Raindrop Joomla plugin 
 
-## Using windows
+![Hydro Logo](https://i.imgur.com/slcCepB.png)
+
+Welcome to the Hydro Raindrop Joomla plugin repository on GitHub.
+
+The `Joomla Hydro Raindrop` plugin provides Hydro Raindrop Multi Factor Authentication to your Joomla site.
+
+## Installation
+
+Download from extensions.joomla.org (soon available).
+
+## Using Windows
 - Clone the repository `git clone https://github.com/DaveM2011/joomla-hydro-raindrop` to anywhere on your computer
 - Make sure you have installed composer (https://getcomposer.org/)
 - Decend into the `plg_twofactorauth_hydroraindrop` directory
@@ -10,7 +19,7 @@ A Joomla plugin to integrate Hydro Raindrop MFA
 - Right click `CreatePackage.ps1` and click `Run with PowerShell` note `7Zip` needs to be installed to use this
 - Congrats you should have a `pkg_hydroraindrop.zip` file now this is the package you install
 
-## Using unix
+## Using Unix
 - Clone the repository `git clone https://github.com/DaveM2011/joomla-hydro-raindrop` to anywhere on your server
 - Make sure you have installed composer (https://getcomposer.org/)
 - `cd plg_twofactorauth_hydroraindrop`
@@ -19,7 +28,7 @@ A Joomla plugin to integrate Hydro Raindrop MFA
 - Run `chmod +x createPackage.sh && bash createPackage.sh` u might need `sudo` who knows :smile
 - Congrats you should have a `pkg_hydroraindrop.zip` file now this is the package you install
 
-## Usage instructions
+## Usage Instructions
 1. Login to your Joomla site admin.
 2. Go to `Extensions -> Manage -> Install` and drag & drop the `pkg_hydroraindrop.zip` package you created earlier. The package shoud install.
 
